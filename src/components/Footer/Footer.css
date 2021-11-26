@@ -1,0 +1,70 @@
+ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-container,
+.text-app {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-left: 10px;
+    flex-direction: row;
+    align-self: center;
+}
+
+.menu-container li a {
+    display: block;
+    padding: 8px;
+}
+
+.menu-container li {
+    margin-left: 10px;
+}
+
+.menu-container li a:hover {
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.text-app {
+    font-size: 1rem;
+}
+
+.trademark {
+    margin-top: 20px;
+}
+
+.trademark-second {
+    margin-top: 20px;
+}
+
+/* .Navbarfooter-link {
+    display: inline-block;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    padding: 10px;
+} */
+
+/* .NavbarFooter {
+    position: relative;
+    min-height: 100px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+} */

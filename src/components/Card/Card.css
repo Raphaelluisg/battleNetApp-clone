@@ -1,0 +1,23 @@
+.background {
+    margin: 0 0.8rem 1rem;
+    background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
+}
+
+.card-item {
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.headingContainer img {
+    position: relative;
+    width: 15rem;
+    height: 10rem;
+    margin: 0 auto;
+    padding: 16px;
+    padding-top: 56px;
+    border-radius: 0.4rem;
+}
+
+.card-title {
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,9 @@
+.imgAccount {
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.imgAccount:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
