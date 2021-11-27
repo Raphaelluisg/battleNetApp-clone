@@ -1,0 +1,40 @@
+.header img {
+    width: 100vw;
+    height: 50rem;
+}
+
+.gameWish {
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameWish h2 {
+    padding: 0 5rem;
+    text-align: justify;
+    font-size: 1em;
+    color:azure;
+}
+
+.gameWish a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color:azure;
+    padding: 0 0 0 1rem;
+}
+
+.gameLike {
+    font-size:1.3em;
+    text-decoration: none;
+    color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game p{
+    padding: 1rem 6rem 2rem;
+    text-align: justify;
+    font-size: 1.2em;
+}

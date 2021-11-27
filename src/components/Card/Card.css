@@ -1,5 +1,8 @@
+.card {
+    margin: 1rem 0.8rem 1rem;
+}
+
 .background {
-    margin: 0 0.8rem 1rem;
     background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
 }
 
@@ -9,15 +12,29 @@
 } 
 
 .headingContainer img {
-    position: relative;
     width: 15rem;
     height: 10rem;
-    margin: 0 auto;
-    padding: 16px;
-    padding-top: 56px;
     border-radius: 0.4rem;
 }
 
 .card-title {
     padding: 0.5rem 0;
+    color:darkslategray;
+}
+
+.wishlist {
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Shippori Antique', sans-serif;
+    background-color: rgb(28, 28, 31);
+    border-radius: 1rem;
+}
+
+.wishlist:hover {
+    cursor: pointer;
 }

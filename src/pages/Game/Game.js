@@ -35,7 +35,9 @@ export default function Game() {
             <div className="gameWish">
                 <h2>{game.name}</h2>
                 <div className="gameLike">
-                    <a href="!#"></a>
+                    <a href="!#">
+                        <FaRegHeart />
+                    </a>
                 </div>
             </div>
             <h3>{game.year}</h3>

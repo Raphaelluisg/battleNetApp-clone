@@ -18,7 +18,7 @@ export default class Header extends Component {
             <div>
                 <Navbar bg="black" variant='dark' expand="lg" className="navbar navbar-expand-md navbar-dark bg-dark">
                     <Container fluid>
-                        <Navbar.Brand href="/home">
+                        <Navbar.Brand href="/">
                             <img className="navbar-logo" src={logo} alt="Blizzard logo" width="90"/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />

@@ -1,6 +1,8 @@
+import Header from '../../components/Navbar/Navbar';
 import Imageslider from '../../components/carousel/Imageslider';
 import Container from '../../components/Container/Container';
 import Card from '../../components/Card/Card';
+import Footer from '../../components/Footer/Footer';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import './Home.css';
@@ -14,18 +16,19 @@ export default function Home() {
         await axios.get('/game/findMany')
         .then(response => {
             if(mounted) {
-                setGames(response.data)
+                setGames(response.data);
             }
-        })
-    }
+        });
+    };
 
     useEffect(() => {
-        setMounted(true)
-        getData()
-    }, [mounted])
+        setMounted(true);
+        getData();
+    }, [mounted]);
 
     return (
         <div className="home">
+            <Header />
             <Imageslider />
             <Container title="Games Gallery">
             {
@@ -39,6 +42,7 @@ export default function Home() {
                 ))
             }
             </Container>
+            <Footer />
         </div>
     )
 }

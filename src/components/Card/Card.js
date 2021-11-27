@@ -23,16 +23,17 @@ export default function Card(props) {
     }
 
     return (
-        <section className="card">
+        <div className="card">
             <div className="card-item" onClick={goToGamePage}>
                 <div className="headingContainer">
                     <img src={props.image} alt={props.title}></img>
                 </div>
                 <h2 className="card-title">{props.title}</h2>
+                <span className="cardPrice">{'R$' + props.price}</span>
             </div>
             <button className="wishlist" onClick={wishGame}>
                 <FaRegHeart />
             </button>
-        </section>
+        </div>
     )
 }

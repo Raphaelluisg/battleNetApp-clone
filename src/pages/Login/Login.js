@@ -23,7 +23,7 @@ export default function Login() {
     }
 
     return(
-        <div className="login body">
+        <div className="login-body">
             <div className="login-content">
                 <h2 class="title">Battle.net</h2>
                 <div classname="login-container">
